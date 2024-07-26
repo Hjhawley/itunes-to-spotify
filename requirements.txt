@@ -1,0 +1,3 @@
+fuzzywuzzy
+spotipy
+python-dotenv
