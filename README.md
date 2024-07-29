@@ -7,7 +7,7 @@ Reads an iTunes playlist in XML format and uses it to create an equivalent Spoti
 - spotipy
 - fuzzywuzzy
 - python-dotenv
-- python-Levenshtein
+- levenshtein
 
 ## Setup
 
