@@ -11,7 +11,7 @@ Reads an iTunes playlist in XML format and uses it to create an equivalent Spoti
 
 ## Setup
 
-1. Obtain your `client_id`, `client_secret`, and `redirect_uri`. You can do this by going to https://developer.spotify.com/dashboard and creating an app (this is a free, one-time process).
+1. Obtain your `client_id` and `client_secret` by going to https://developer.spotify.com/dashboard and creating an app (this is a free, one-time process).
 
 2. Create an `.env` file in the root of this project directory and add your Spotify credentials like this:
 
