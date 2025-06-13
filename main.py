@@ -7,7 +7,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 from dotenv import load_dotenv
-from utils import clean_artist, clean_track
+from utils import clean_artist, clean_album, clean_track
 
 load_dotenv()
 
@@ -60,7 +60,7 @@ def track_getter(sp, user_id: str, playlist_id: str, playlist_order: List[int], 
 
         if name and artist:
             cleaned_name = clean_track(name)
-            cleaned_album = clean_track(album)
+            cleaned_album = clean_album(album)
      
             results = sp.search(q=f"track:{cleaned_name} artist:{artist} album:{cleaned_album}", type='track')
             tracks = results['tracks']['items']
